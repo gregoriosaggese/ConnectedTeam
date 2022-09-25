@@ -1,0 +1,17 @@
+a{
+     color: black;
+ }
+.buttonLogOut{
+    background-color: transparent;
+    color: black;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    cursor: pointer;
+}
+#vaadin-license-validation-notification-vaadin-chart{
+    display: none;
+}
+body{
+    background-color: rgb(184, 219, 224);
+}

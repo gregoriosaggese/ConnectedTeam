@@ -1,0 +1,132 @@
+
+.paer {
+  border-radius: 50%;
+  box-shadow: inset -25px -25px 40px rgba(0,0,0,.5);
+  background-image: -webkit-linear-gradient(-45deg, rgba(255,255,220,.2) 0%, transparent 100%);
+  background-image: -moz-linear-gradient(-45deg, rgba(255,255,220,.2) 0%, transparent 100%);
+  background-image: -o-linear-gradient(-45deg, rgba(255,255,220,.2) 0%, transparent 100%);
+  background-image: -ms-linear-gradient(-45deg, rgba(255,255,220,.2) 0%, transparent 100%);
+
+
+  width: 80px;
+  height: 80px;
+
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  color: #fff;
+  position: absolute;
+  right: -40px;
+  top: -40px;
+  animation: moveX 5.5s linear 0s infinite alternate, moveY 6.5s linear 0s infinite alternate;
+
+  /*border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 500%;
+  box-shadow: inset -10px -10px 100px #000, 10px 10px 20px black, inset 0px 0px 10px black;
+  margin: 5%;
+  width: 80px;
+  height: 80px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  color: #fff;
+  position: absolute;
+  right: -40px;
+  top: -40px;
+  animation: moveX 3.5s linear 0s infinite alternate, moveY 4s linear 0s infinite alternate;*/
+}
+
+/*.paer::after{
+  content: '';
+  height: 45%;
+  width: 12%;
+  position: absolute;
+  top: 4%;
+  left: 15%;
+  border-radius: 50%;
+  transform: rotate(40deg);
+}*/
+
+@-webkit-keyframes moveX {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 1450px;
+  }
+}
+
+@-moz-keyframes moveX {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 1450px;
+  }
+}
+
+@-o-keyframes moveX {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 1450px;
+  }
+}
+
+@keyframes moveX {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 1450px;
+  }
+}
+
+@-webkit-keyframes moveY {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 620px;
+  }
+}
+
+@-moz-keyframes moveY {
+  from {
+    top: 0;
+  }
+  to {
+    top: 620px;
+  }
+}
+
+@-o-keyframes moveY {
+  from {
+    top: 0;
+  }
+  to {
+    top: 620px;
+  }
+}
+
+@keyframes moveY {
+  from {
+    top: 0;
+  }
+  to {
+    top: 620px;
+  }
+}
+
+.parag2, blockquote {
+  margin-top: 0em;
+  margin-bottom: 0em;
+  font-size: 30px;
+}

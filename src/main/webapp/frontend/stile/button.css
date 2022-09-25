@@ -1,0 +1,24 @@
+#button {
+    background-color: #2d93ac;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 5px #999;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+}
+#button:hover {
+    background-color: white;
+    color: #2d93ac;
+}
+
+#buttonSomma{
+
+}
+
+#button:hover {
+
+}

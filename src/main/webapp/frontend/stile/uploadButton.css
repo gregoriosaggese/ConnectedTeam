@@ -1,0 +1,8 @@
+.v-upload-small .v-button
+{
+    height: 31px;
+    padding: 0 14px;
+    font-size: 14px;
+    border-radius: 4px;
+    background-color: black;
+}

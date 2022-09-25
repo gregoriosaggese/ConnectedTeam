@@ -1,0 +1,319 @@
+.welcomeLabel{
+  font-size: 3em;
+}
+
+.welcomeProfileImg{
+  border-radius: 80px;
+  background: white;
+}
+
+.layoutNomeEPartita{
+  padding-top: 12pt;
+  align-items: center;
+}
+
+.WelcomeGameName{
+  font-weight: 400;
+  font-size: 1.1em;
+  /*margin-bottom: 5px;*/
+}
+
+.gameDescrWelcome{
+  overflow-y: hidden;
+}
+.v-slot-WelcomeGameName{
+  height: 15pt !important;
+}
+
+.mainHorizontalLayout{
+  width: 100%;
+  position: absolute;
+  top: 90px;
+  /*
+  margin-left: 110px;
+  */
+}
+
+
+.layoutWelcomeGame{
+  /*position: absolute;*/
+  top: 350px;
+  text-align: center;
+ /* background-color: #b8dbe0;*/
+  background-color: #84c0c9;
+  margin: 10pt;
+  transition: all .25s linear;
+  box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.4);
+}
+
+.layoutWelcomeGame:hover{
+  box-shadow: -1px 10px 29px 0px rgba(0,0,0,0.8);
+}
+.v-csslayout{
+  text-align: center;
+}
+
+.v-cssLayout div{
+  text-align: left;
+}
+
+.positioning2{
+  width: 100%;
+  align-items: center;
+  padding: 0px;
+}
+
+.positioning {
+  /*position: absolute;
+  top: 100px;
+  width: 100%;*/
+}
+.imgGame{
+  width: 100px;
+  height: 100px;
+}
+.main1 {
+  /*overflow:scroll;*/
+  width: 100%;
+  position: absolute;
+  align-items: center;
+  top: 90px;
+
+}
+.WelcomePartita{
+  width: 100%;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.main-chart{
+  padding: 10px;
+  margin-right: 30px;
+}
+
+.buttonGameName{
+  color: black;
+  background-color: transparent;
+  --lumo-button-size: null;
+}
+.buttonGameName span{
+  position: absolute;
+  left: 30px;
+}
+
+
+.goPlay {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #7cdcf4;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 395px;
+  height: 80px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.goPlay span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.goPlay span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.goPlay:hover span {
+  padding-right: 25px;
+}
+
+.goPlay:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.uploader::before{
+  content: "Carica";
+}
+
+
+.buttonUserGuess{
+  color: black;
+  background-color: transparent;
+  --lumo-button-size: null;
+  margin-right: 50px;
+  margin-left: 20px;
+}
+.buttonUserGuess span{
+  position: absolute;
+  left: 60px;
+  top: 15px;
+}
+
+.buttonSendChat{
+  height: 40px;
+  width: 50px;
+  cursor: pointer;
+  color: black;
+  background-color: #2d93ac;
+  --lumo-button-size: null;
+  margin-top: 15px;
+  border-radius: 30px;
+  margin-left: 9px;
+}
+
+.chatLayoutMessages{
+  width: 300px;
+  height: 300px;
+  overflow-y: scroll;
+  overflow-x: scroll;
+
+}
+.goPlayGuess {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #2d93ac;
+  border: none;
+  color: #FFFFFF;
+  font-size: 28px;
+  width: 120px;
+  height: 70px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  position: fixed;
+  left: 290px;
+}
+
+.layoutUsers{
+  width: 300px;
+  height: 200px;
+  overflow-y: scroll;
+}
+
+.containerRoom{
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.horizontalLayoutStartGameUI{
+  position: absolute;
+  left: 550px;
+  top: 200px;
+}
+
+.labelSuggerisci{
+  position: absolute;
+  left: 550px;
+  top: 150px;
+  font-size: 20px;
+}
+
+.suggerisciParolaLayout{
+  overflow-y: scroll;
+  position: absolute;
+  top: 60px;
+  left: 40px;
+  background-color:transparent;
+}
+
+.containerParoleVotate{
+  position: absolute;
+  left: 300px;
+  top: 230px;
+  width: 300px;
+  height: 200px;
+  overflow-y: scroll;
+}
+
+.parolevotatelabel{
+  font-size: 20px;
+  position: absolute;
+  left: 315px;
+  top: 150px;
+}
+
+.chatlayoutmessage2{
+  width: 500px;
+  height: 250px;
+  overflow-y: scroll;
+  overflow-x: scroll;
+}
+
+.labelNumSottrarre{
+  position: absolute;
+  top: 60px;
+  left: 315px;
+  font-size: 24px;
+}
+
+.containerAddendi{
+  width: 200px;
+  /*height: 100px;*/
+  position: absolute;
+  top: 200px;
+  left: 300px;
+}
+
+.addendiLabel{
+  border: 3px solid;
+  width: 40px;
+  height: 30px;
+  margin: 0px;
+}
+
+.parag{
+  margin: 2px;
+}
+
+.containerNumeriSS{
+  position: absolute;
+  left: 316px;
+  top: 230px;
+  font-size: 20px;
+}
+
+.cronologiaNumeri{
+  width: 100%;
+  height: 300px;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  position: absolute;
+  top: 190px;
+  left: -55px;
+  background-color: transparent;
+}
+
+.cronologiaMosse{
+  font-size: 25px;
+  position: absolute;
+  top: 150px;
+  left: -70px;
+}
+
+.labelCronologia{
+  background-color: #2d93ac;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 5px #999;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  outline: none;
+}
